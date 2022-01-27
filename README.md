@@ -7,7 +7,7 @@ Build出image後直接run
 docker run -d -p 8080:8080 mytomcat
 ```
 
-FROM： 使用到的 Docker Image 名稱，今天使用 CentOS
+FROM： 使用到的 Docker Image 名稱，這次我先使用 CentOS
 
 MAINTAINER： 用來說明，撰寫和維護這個 Dockerfile 的人是誰，也可以給 E-mail的資訊
 
